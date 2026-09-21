@@ -1,6 +1,6 @@
 
 export function makeCounter(){
-    let privateCounter = 0;        //variabile privata con inizializzatore parte da 0
+    let privateCounter = 0;        
     function changeBy(val){
         privateCounter += val;      
     }
